@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EndpointsController {
 
-    @GetMapping("/")
+    @GetMapping("/endpoints")
     public String getIndex(){
         return "Get to index route";
     }

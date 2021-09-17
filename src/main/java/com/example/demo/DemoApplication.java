@@ -7,7 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) {
+//		String beast = "Batman is Batman";
+//		WordCounter bob = new WordCounter();
+//
+//		System.out.println(bob.count(beast));
+
 		SpringApplication.run(DemoApplication.class, args);
 	}
+
+
 
 }
